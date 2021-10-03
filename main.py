@@ -55,7 +55,7 @@ while True:
             w, h = button.size
 
             if x < lmList[8][0] < x+w and y < lmList[8][1] < y + h:
-                cv2.rectangle(img, button.pos, (x + w, y + h), (175, 0, 175), cv2.FILLED)
+                cv2.rectangle(img, (x - 5, y - 5), (x + w + 5, y + h + 5), (175, 0, 175), cv2.FILLED)
                 cv2.putText(img, button.text, (x + 20, y + 65), cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 4)
                 l, _, _ = detector.findDistance(8, 12, img)
                 print(l)
