@@ -1,6 +1,6 @@
 import cv2
 from cvzone.HandTrackingModule import HandDetector
-from pynput.keyboard import Controller
+from pynput.keyboard import Controller, Key
 from time import sleep
 import cvzone
 
@@ -59,6 +59,22 @@ while True:
                 cv2.putText(img, button.text, (x + 20, y + 65), cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 4)
                 l, _, _ = detector.findDistance(8, 12, img)
                 print(l)
+
+                # clear character
+                # a, _, _ = detector.findDistance(4, 16, img)
+                # print("backscape", a)
+                #
+                # if a < 20:
+                #     keyboard.press(Key.backspace)
+                #     sleep(0.15)
+
+                # add space
+                # f, _, _ = detector.findDistance(4, 20, img)
+                # print(f)
+                #
+                # if f < 20:
+                #     keyboard.press(Key.space)
+                #     sleep(0.15)
 
                 # when clicked
                 if l < 30:
