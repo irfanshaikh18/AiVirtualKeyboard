@@ -10,9 +10,7 @@ in a text editor like a notepad.
 
 ![Test Image 1](https://i.ibb.co/zhPtgYH/Ai-Virtual-Keyboard.jpg)
 
-![Test Image 2](https://i.ibb.co/Jj9Wsts/test-image-2.jpg)
-
-### Credits
+### Credit
 
 This project was built following Murtaza's Workshop Lectures. He is an amazing computer vision Instructor,
 You can check out his youtube channel [Here](https://www.youtube.com/c/MurtazasWorkshopRoboticsandAI).
