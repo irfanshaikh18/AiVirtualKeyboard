@@ -2,7 +2,7 @@
 
 An Ai Virtual Keyboard built with Python and OpenCV modules. 
 
-## Implementation and Results
+### Implementation and Results
 
 The Keyboard letters are fixed on the screen at certain coordinates. The Camera will capture our hand and detect our hand and finger movements and then it will compare with 
 the location of the keyboard key on the screen. If it matches, then the action associated with that key is triggered. Using this, the user can type letters on the screen or
